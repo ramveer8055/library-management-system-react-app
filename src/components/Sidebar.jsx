@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/Sidebar.css'
 import { NavLink } from 'react-router-dom'
-import { FaUsers, FaHouseDamage, FaRegAddressBook, FaList, FaUserPlus, FaForumbee } from 'react-icons/fa';
+import { FaUsers, FaHouseDamage, FaList, FaUserPlus } from 'react-icons/fa';
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { MdLogout } from 'react-icons/md';
 import { SlNotebook } from "react-icons/sl";
