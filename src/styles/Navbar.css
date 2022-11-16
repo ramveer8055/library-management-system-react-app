@@ -1,0 +1,37 @@
+.logo h3 {
+    color: #fff;
+    margin-left: 35px;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A28;
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.links li a:hover {
+    color: #1f80e0;
+}
+
+main {
+    margin-top: 35px;
+    height: 80vh;
+}

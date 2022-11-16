@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.grid-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.id {
+    background-color: #00ccee;
+    width: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.delete-btn {
+    margin: 20px 0;
+    background: red;
+    color: white;
+    /* border-style: outset; */
+    border-color: #0066A2;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    padding: 0.5px 0;
+}

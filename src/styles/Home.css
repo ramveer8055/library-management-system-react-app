@@ -1,0 +1,45 @@
+.home {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.admin-user {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.admin-user img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.admin-user-login {
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #00acee;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}

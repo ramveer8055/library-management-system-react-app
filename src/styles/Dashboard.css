@@ -1,0 +1,23 @@
+.dashboard-container {
+    padding: 30px;
+    margin: 50px auto;
+    /* display: flex; */
+    /* background-color: aquamarine; */
+    height: 400px;
+    width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.book-title {
+    margin: 20px 0;
+    font-size: 34px;
+    font-weight: 400;
+    border-bottom: 2px solid goldenrod;
+}
+
+.book-desc {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+ 

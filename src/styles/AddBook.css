@@ -1,0 +1,24 @@
+.add-books-btn-container{
+    display: flex;
+}
+.add-book-container{
+    margin: 30px 0;
+}
+.add-books-btn-container{
+    
+}
+
+.add-book-container input{
+    margin-bottom: 30px;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background-color: #EFF5F5;
+    outline: none;
+    border-bottom: 1px solid #00acee;
+}
